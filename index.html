@@ -9,11 +9,20 @@
     <link rel="icon" href="images/image.gif">
 </head>
 <body>
-    <nav>
+    <nav id="topmenu">
         <div class="profil">
             <img src="images/image.gif" alt="logo photo">
             <h1>BLANCHÉ Bryan</h1>
         </div>
+        <button class="btn">
+            <a href="#a propos de moi">A propos de moi</a>
+          </button>
+          <button class="btn">
+            <a href="#mon entreprise">Mon entreprise</a>
+          </button>
+          <button class="btn">
+            <a href="#mon établissement scolaire">Mon établissement scolaire</a>
+          </button>
         <div id="menu">
         <ul>
             <li>Linkedin</li>
@@ -23,93 +32,107 @@
         </ul>
         </div>
     </nav>
-
+    <div id="raccourcimenu">
+    <a href="#topmenu"><img src="images/flèche.gif" id="flèche" ></a>
+    </div>
     <section class="page-content">
         <header>
-            <h1>Bonjour, je suis étudiant en BTS SIO et technicien de maintenance en informatique.</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
-                debitis, facilis aliquam voluptates fugiat ipsum odio, nihil
-                architecto fuga laboriosam tempore necessitatibus quas? Incidunt nobis
-                ducimus vel, delectus sit quod Lorem ipsum dolor sit amet consectetur
-                adipisicing elit.
-            </p>
-            <button>Dites Hey</button>
+             <br>
+             <h1>Bonjour, je suis apprenti en BTS SIO et technicien de maintenance en informatique.</h1>
+             <br>
+             <br>
         </header>
-
-        <section class="presentation-image">
+    <div class="conteneur">
+        <!--<section class="presentation-image">!-->
             <img src="images/Photo_de_moi.gif" alt="Photo de Bryan" id="photomoi" />
-        </section>
+        <!--</section>!-->
 
-        <section class="entreprise-image">
+        <!--<section class="entreprise-image">!-->
             <img src="images/photo_entreprise.jpg" alt="Photo de mon entreprise" id="photoentreprise" />
-        </section>
-
+        <!--</section>!-->
+    </div>
+    <div id="a propos de moi">
         <section class="projects-section">
-            <h1>Projets réalisés</h1>
-            <div class="projects">
-                <div class="project">
-                    <h4>Un robot créateur de cookies</h4>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Molestias sunt, atque aliquid pariatur.
-                    </p>
-                    <p class="dates">Dates 2015 - 2016</p>
-                </div>
-                <div class="project">
-                    <h4>Prévision du caractère humain</h4>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Molestias sunt, atque aliquid pariatur.
-                    </p>
-                    <p class="dates">Dates 2016 - 2017</p>
-                </div>
-                <div class="project">
-                    <h4>Création d'un assistant vocal</h4>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Molestias sunt, atque aliquid pariatur.
-                    </p>
-                    <p class="dates">Dates 2017 - 2018</p>
-                </div>
-                <div class="project">
-                    <h4>Reconnaissance de formes</h4>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Molestias sunt, atque aliquid pariatur.
-                    </p>
-                    <p class="dates">Dates 2019 - 2020</p>
-                </div>
-                <div class="project">
-                    <h4>Algorithme de reconnaissance d'objet</h4>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Molestias sunt, atque aliquid pariatur.
-                    </p>
-                    <p class="dates">Dates 2020 - 2021</p>
+            <br>
+            <br>
+            <h1>Mon parcours</h1>
+            <div class="content">
+                <div class="card">
+                    <div class="left">
+                        <h4>Mon parcours scolaire</h4>
+                        <h4>De 2018 à 2021, au lycée Guteberg à Illkirch, j'ai préparé un Baccalauréat systèmes
+                            numériques que j'ai obtenu avec une moyenne de 14.61 et une mention "Bien". 
+                            <br> 
+                            Lors de ces 3 années, j'ai eu le choix entre l'option réseau infrastructure et services communicants (RISC), et l'option audiovisuel réseau et équipement domestiques 
+                            <br>
+                            (ARED). Personellement je me suis penché sur l'option ARED, car selon moi je pense que je suis plus apte à pratiquer des activitées manuelles.
+                            <br>
+                            J'ai acquis plusieurs compétances comme le fais de détécter une panne sur un appareil électronique mais également remédier à cette panne et faire fonctionner l'appareil comme à l'origine.
+                            
+                            Durant ces 3 années de Bac Pro j'ai pu également effctuer plusieurs périodes de stage en pilieu professionnel, notament dans le domaine de l'informatique, ou j'ai pu acquerir beaucoup de compétances dans le montage et le dépannage d'ordinateurs.
+                            <br>
+                            j'ai également acquéri des compétances dans le dépannage d'électroménager et électro-doméstique.  </h4>
+                    </div>
+                    <div class="right">
+                        <img src="images/Bac_pro_sn.jpg" id="bac_pro_sn"
+                        width="300"
+                        height="200">
+                    </div>
                 </div>
             </div>
-        </section>
-    </section>
+        
 
-    <footer>
-        <div class="colonne">
-            <h3>Mes services</h3>
-            <p>Développement de projet IA</p>
-            <p>Prestation en IA</p>
-            <p>Investissement en entreprises IA</p>
-        </div>
-        <div class="colonne">
-            <h3>Mon entreprise</h3>
-            <p>Équipe constituée de 20k ingénieurs</p>
-            <p>Une communauté active mondiale</p>
-            <p>Une entreprise à but lucratif</p>
-        </div>
+ </div>
+ <br>
+ <br>
+ <div id="mon entreprise">
+ <h1>Milieu professionnel</h1>
+ <div class="content">
+     <div class="card">
+         <div class="left">
+             <h4>Mon entreprise</h4>
+             <h4>J'occupe actuellement un poste d'apprentit en tant que technicien de maintenance en informatique au sein de l'entreprise Clestra HAUSERMAN. 
+                 <br> 
+                Clestra est une entreprise qui imagine et fabrique des cloisons amovibles principalement pour les bureaux.
+                 <br>
+                 L'entreprise comprend environ 250 emplyés, ce qui necéssite une maintenance et une administration informatique éfficace.</h4>
+         </div>
+         <div class="right">
+             <img src="images/Clestra.jpg" id="clestra"
+             width="300"
+             height="200">
+         </div>
+     </div>
+ </div>
+
+                <div class="Mon établissement scolaire">
+                    <div id="mon établissement scolaire"></div>
+<div id="mon etablissement scolaire">
+ <h1>Milieu scolaire</h1>
+ <div class="content">
+     <div class="card">
+         <div class="left">
+             <h4>Mon école</h4>
+             <h4>J'occupe actuellement un poste d'apprentit en tant que technicien de maintenance en informatique au sein de l'entreprise Clestra HAUSERMAN. 
+                 <br> 
+                Clestra est une entreprise qui imagine et fabrique des cloisons amovibles principalement pour les bureaux.
+                 <br>
+                 L'entreprise comprend environ 250 emplyés, ce qui necéssite une maintenance et une administration informatiqu éfficace.</h4>
+         </div>
+         <div class="right">
+             <img src="images/cci.jpg" id="cci"
+             width="300"
+             height="200">
+         </div>
+     </div>
+ </div>
+ 
+
         <div class="colonne">
             <h3>Mes adresses</h3>
-            <p>artificial@gmail.com</p>
-            <p>intelligence@gmail.com</p>
-            <p>google-science@google.com</p>
+            <p>bryan670006@gmail.com</p>
+            <p>b.blanche@clestra.com</p>
+            <p>sefir670006@gmail.com</p>
         </div>
     </footer>
 </body>
