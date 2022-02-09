@@ -249,7 +249,7 @@ nav .profil h1 {
 }
 #flèche{
     width: 70px;
-    height: 70px;     
+    height: 69px;     
 }
 
 #flèche:hover {
@@ -259,6 +259,7 @@ nav .profil h1 {
     box-shadow: 0 0 1px rgb(255, 215, 0), 0 0 10px rgb(255, 215, 0), 0 0 10px rgb(255, 215, 0);
     font-weight: bold;
     border-radius: 50px;
+}
 
 
 h1{
